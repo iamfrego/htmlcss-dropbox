@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* DEBUG */
+
+/* .debug nav {
+    height: 70px;
+    background-color: green;
+} */
+
+/* .debug .logo {
+    height: 70px;
+    background-color: tomato;
+} */
+
+/* .debug .link {
+    height: 70px;
+    background-color: black;
+} */
+
+/* .debug .link2 {
+    height: 70px;
+    background-color: black;
+} */
+
+/* .debug .blue_button {
+    height: 70px;
+    background-color: tomato;
+} */
+
+/* HEADER */
+
+#site_header {
+    background-color: #ffff;
+}
+
+.nav {
+    margin: auto;
+    line-height: 1.5;
+}
+
+.logo {
+    width: 10%;
+    float: left;
+    margin: 15px 30px;
+    padding-top: 5px;
+}
+
+.link {
+    width: 35%;
+    float: left;
+    text-align: left;
+    padding: 20px;
+}
+
+.link2 {
+    width: 35%;
+    float: left;
+    text-align: right;
+    padding: 20px;
+    margin-left: 175px;
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 1.5rem;
+}
+
+.navlink :first-child {
+    margin-left: 0;
+}
+
+button {
+    padding: 5px 10px;
+    border: 0;
+}
+
+.blue_button {
+    background-color: #0061FF;
+    color: white;
+}
+
+.inizia {
+    float: left;
+    margin: auto;
+    position: relative;
+    left: 30px;
+    top: 17px;
+}
