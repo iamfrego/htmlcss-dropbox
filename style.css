@@ -3,13 +3,16 @@
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
 }
 
 .clearfix::after {
     content: "";
     display: table;
     clear: both;
+}
+
+.background {
+    background-color: #B4D0E7;
 }
 
 /* DEBUG */
@@ -39,16 +42,35 @@
     background-color: tomato;
 } */
 
-/* HEADER */
+/* .debug .background {
+    height: 700px;
+}
+
+.debug .jumbo {
+    height: 700px;
+    background-color: teal;
+} */
+
+/* .debug .jumbo p {
+    height: 200px;
+    background-color: rgb(0, 128, 11);
+} */
+
+/* HEADER ****************************************************/
 
 #site_header {
     background-color: #ffff;
+    font-weight: 600;
 }
 
 nav {
+    width: 100%;
     margin: auto;
     height: 90px;
     line-height: 90px;
+    /* position: fixed;
+    top: 0;
+    left: 0; */
 }
 
 .logo {
@@ -67,7 +89,8 @@ nav {
     width: 35%;
     float: left;
     text-align: right;
-    margin-left: 175px;
+    padding-left: 100px;
+    margin-left: 300px;
 }
 
 nav a {
@@ -79,9 +102,14 @@ nav a {
     margin-left: 0;
 }
 
+.navlink a:last-of-type {
+    margin-right: 100px;
+}
+
 button {
     padding: 5px 10px;
     border: 0;
+    font-weight: 600;
 }
 
 .blue_button {
@@ -89,10 +117,46 @@ button {
     color: white;
 }
 
-.inizia {
-    float: left;
+/* MAIN ************************************************/
+
+.jumbo {
+    width: 83%;
     margin: auto;
+    padding-top: 75px;
+}
+
+.jumbo h1 {
+    font-size: 85px;
+    font-weight: 800;
+    text-align: justify;
+}
+
+.jumbo_info {
+    float: left;
+    width: 30%;
+}
+
+.jumbo_text {
+    margin-top: 50px;
+}
+
+.prova_gratuita {
+    margin-top: 25px;
+    padding: 15px 30px;
+}
+
+.jumbo p {
+    margin: 25px 0px;
+}
+
+.jumbo_img {
+    width: 50%;
+    float: left;
     position: relative;
-    left: 60px;
-    top: 30px;
+    top: 50px;
+    left: 30px;
+}
+
+i {
+    font-size: 40px;
 }
