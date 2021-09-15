@@ -2,7 +2,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body {
     font-family: 'Open Sans', sans-serif;
+    font-size: larger;
 }
 
 .clearfix::after {
@@ -19,6 +23,7 @@ button {
     border: 0;
     padding: .5rem 1rem;
     vertical-align: sub;
+    font-size: larger;
 }
 
 .blue_button {
@@ -29,7 +34,7 @@ button {
 /* DEBUG */
 
 .debug {
-    height: 2000px;
+    height: 5000px;
 }
 
 /* .debug nav {
@@ -76,9 +81,15 @@ button {
     background-color: thistle;
 } */
 
-.debug .option {
+/* .debug .option {
     background-color: blue;
-}
+    height: 2000px;
+} */
+
+/* .debug .enterprise {
+    background-color: blueviolet;
+    height: 500px;
+} */
 
 /* HEADER ****************************************************/
 
@@ -204,24 +215,25 @@ a {
 }
 
 .option {
-    height: 100%;
+    margin-bottom: 3rem;
 }
 
 .col {
     width: 30%;
+    height: 100%;
     float: left;
     border: 1px solid black;
 }
 
 .col:nth-of-type(2n+2) {
-    margin: 0px 3.3%;
+    margin: 0px 5%;
 }
 
 .col_type {
     text-align: center;
     border-bottom: black solid 1px;
     font-weight: 100;
-    padding: 3px 0px;
+    padding: 10px 0px;
     font-size: large;
 }
 
@@ -284,4 +296,20 @@ a {
 .tick_list li::marker {
     color: #0061ff;
     content: '✔  ';
+}
+
+.enterprise {
+    border: black solid 1px;
+}
+
+.enterprise p {
+    font-weight: 100;
+}
+
+.enterprise .type_price {
+    float: left;
+}
+
+.floating_button {
+    float: right;
 }
