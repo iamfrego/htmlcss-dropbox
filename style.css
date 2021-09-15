@@ -36,72 +36,6 @@ button {
     border: black solid 1px;
 }
 
-/* DEBUG */
-
-/* .debug nav {
-    height: 70px;
-    background-color: green;
-} */
-
-/* .debug .logo {
-    height: 70px;
-    background-color: tomato;
-} */
-
-/* .debug .link {
-    height: 70px;
-    background-color: black;
-} */
-
-/* .debug .link2 {
-    height: 70px;
-    background-color: black;
-} */
-
-/* .debug .blue_button {
-    height: 70px;
-    background-color: tomato;
-} */
-
-/* .debug .background {
-    height: 700px;
-}
-
-.debug .jumbo {
-    height: 700px;
-    background-color: teal;
-} */
-
-/* .debug .jumbo p {
-    height: 200px;
-    background-color: rgb(0, 128, 11);
-} */
-
-/* .debug .col {
-    height: 400px;
-    background-color: thistle;
-} */
-
-/* .debug .option {
-    background-color: blue;
-    height: 2000px;
-} */
-
-/* .debug .enterprise {
-    background-color: blueviolet;
-    height: 500px;
-} */
-
-/* .debug .partner {
-    height: 500px;
-    background-color: black;
-} */
-
-.debug #site_footer {
-    height: 500px;
-    background-color: blueviolet;
-}
-
 /* HEADER ****************************************************/
 
 .site_header {
@@ -541,4 +475,50 @@ a {
 
 .question:active+.answer {
     display: block;
+}
+
+/* FOOTER******************************************************************* */
+
+#site_footer {
+    padding-top: 4rem;
+    background-color: #000000;
+    color: white;
+    padding-bottom: 5rem;
+}
+
+.foot_row {
+    width: 65%;
+    margin: auto;
+}
+
+.foot_row ul {
+    list-style: none;
+    font-size: smaller;
+    line-height: 2;
+}
+
+.foot_col {
+    float: left;
+    width: 20%;
+    padding-bottom: 50px;
+}
+
+.foot_col h3 {
+    padding-bottom: 20px;
+}
+
+.foot_lang {
+    width: 200px;
+}
+
+.language {
+    width: 65%;
+    margin: auto;
+    float: left;
+}
+
+.italian {
+    background-color: transparent;
+    color: white;
+    border-style: none;
 }
