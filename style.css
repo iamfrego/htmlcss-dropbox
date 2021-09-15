@@ -6,7 +6,6 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: larger;
 }
 
 .clearfix::after {
@@ -356,7 +355,7 @@ a {
 .feature {
     width: 65%;
     margin: auto;
-    margin-bottom: 10rem;
+    margin-bottom: 7rem;
 }
 
 .row {
@@ -390,4 +389,102 @@ a {
     margin-bottom: 1rem;
 }
 
-/*  */
+/* affiliate */
+
+.title {
+    width: 65%;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+.title h2 {
+    width: 28%;
+}
+
+.title p {
+    padding-top: 2rem;
+    color: blue;
+    text-decoration: underline;
+}
+
+.team_affiliate .companies {
+    float: left;
+    width: 30%;
+}
+
+.team_affiliate .content {
+    float: left;
+    width: 40%;
+}
+
+.company {
+    float: left;
+    width: 50%;
+    height: 285px;
+    position: relative;
+}
+
+.company>img {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content {
+    background-color: #F6F6F6;
+    height: 570px;
+    padding: 1rem 0.5rem 0 2rem;
+}
+
+.content img {
+    width: 200px;
+    padding: 5rem 0 30px 0;
+}
+
+.underscore {
+    width: 50px;
+    height: 1px;
+    background-color: black;
+}
+
+.content p {
+    padding-top: 70px
+}
+
+.green {
+    background-color: #A2D39B;
+}
+
+.brown {
+    background-color: #61082B;
+}
+
+.lightblue {
+    background-color: #0093CE;
+}
+
+.red {
+    background-color: #FF1C1C;
+}
+
+.darkred {
+    background-color: #D5001F;
+}
+
+.skyblue {
+    background-color: #B4D0E7;
+}
+
+.blue {
+    background-color: #0D2481;
+}
+
+.yellow {
+    background-color: #FFD830;
+}
+
+.filter {
+    filter: invert(100%) sepia(56%) saturate(0%) hue-rotate(9deg) brightness(115%) contrast(101%);
+}
