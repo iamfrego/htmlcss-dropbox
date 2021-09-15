@@ -31,6 +31,12 @@ button {
     background-color: #0061ff;
 }
 
+.white_button {
+    color: black;
+    background-color: white;
+    border: black solid 1px;
+}
+
 /* DEBUG */
 
 .debug {
@@ -91,6 +97,11 @@ button {
     height: 500px;
 } */
 
+/* .debug .partner {
+    height: 500px;
+    background-color: black;
+} */
+
 /* HEADER ****************************************************/
 
 .site_header {
@@ -145,7 +156,7 @@ a {
 /* jumbo */
 
 .jumbo_section {
-    margin-bottom: 200px;
+    margin-bottom: 10rem;
 }
 
 .jumbo {
@@ -300,6 +311,7 @@ a {
 
 .enterprise {
     border: black solid 1px;
+    margin-bottom: 7rem;
 }
 
 .enterprise p {
@@ -312,4 +324,32 @@ a {
 
 .floating_button {
     float: right;
+}
+
+/* Partner */
+
+.partner {
+    width: 65%;
+    margin: auto;
+}
+
+.partner img {
+    width: 50%;
+    float: left;
+}
+
+.partner_text {
+    width: 50%;
+    float: left;
+    padding-left: 200px;
+}
+
+.partner_text h2 {
+    font-size: 35px;
+    padding-bottom: 2rem;
+}
+
+.partner_text p {
+    line-height: 1.6;
+    padding-bottom: 2rem;
 }
