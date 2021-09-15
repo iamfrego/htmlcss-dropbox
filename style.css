@@ -485,6 +485,23 @@ a {
     background-color: #FFD830;
 }
 
-.filter {
-    filter: invert(100%) sepia(56%) saturate(0%) hue-rotate(9deg) brightness(115%) contrast(101%);
+.invite {
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+
+.title_button {
+    width: 65%;
+    margin: auto;
+}
+
+.title_button h2 {
+    float: left;
+    color: #61082B;
+    width: 30%;
+    font-size: 30px;
+}
+
+.title_button button {
+    float: right;
 }
