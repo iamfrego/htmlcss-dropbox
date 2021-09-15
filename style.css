@@ -97,6 +97,11 @@ button {
     background-color: black;
 } */
 
+.debug #site_footer {
+    height: 500px;
+    background-color: blueviolet;
+}
+
 /* HEADER ****************************************************/
 
 .site_header {
@@ -486,8 +491,9 @@ a {
 }
 
 .invite {
-    padding-bottom: 4rem;
-    padding-top: 4rem;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 .title_button {
@@ -504,4 +510,35 @@ a {
 
 .title_button button {
     float: right;
+}
+
+/* Q&A */
+
+.box {
+    width: 65%;
+    margin: auto;
+}
+
+.box h2 {
+    font-size: 30px;
+    margin-bottom: 3rem;
+}
+
+.question {
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.question span {
+    position: relative;
+    left: 500px;
+}
+
+.answer {
+    margin-bottom: 3rem;
+    display: none;
+}
+
+.question:active+.answer {
+    display: block;
 }
