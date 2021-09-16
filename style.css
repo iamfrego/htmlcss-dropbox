@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -16,6 +20,10 @@ body {
 
 .background {
     background-color: #B4D0E7;
+}
+
+.right {
+    text-align: end;
 }
 
 button {
@@ -42,43 +50,52 @@ button {
     position: relative;
 }
 
-.site_nav {
-    position: fixed;
-    width: 100%;
-    padding: 2rem;
-    background-color: white;
-    z-index: 1000;
+a {
+    text-decoration: none;
+    color: black;
 }
 
-.head1 {
-    float: left;
-    width: 50%;
-    padding-left: 5rem;
+nav {
+    min-width: 1440px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 90px;
+    line-height: 90px;
+    vertical-align: middle;
+    background-color: white;
+    z-index: 100;
+}
+
+nav li {
+    display: inline-block;
 }
 
 .logo {
-    vertical-align: sub;
+    position: relative;
+    top: 0.3rem;
 }
 
-.link_1st {
-    padding: 1rem;
-    color: black;
-}
-
-.head2 {
-    float: right;
+.head_col {
     width: 50%;
-    padding-left: 22rem;
+    float: left;
 }
 
-.link_2nd {
-    vertical-align: sub;
-    padding: 1rem;
-    color: black;
+nav li {
+    padding: 0 1.5rem;
 }
 
-a {
-    text-decoration: none;
+.support {
+    background-color: white;
+    position: fixed;
+    right: 32.5rem;
+    display: none;
+}
+
+.support p {
+    padding: 1rem 2rem;
+    cursor: pointer;
 }
 
 .inizia {
@@ -475,6 +492,7 @@ a {
 /* FOOTER******************************************************************* */
 
 #site_footer {
+    margin-top: 4rem;
     padding-top: 4rem;
     background-color: #000000;
     color: white;
@@ -520,14 +538,12 @@ a {
 
 /* animation */
 
-.head1 a:hover {
-    border-bottom: 1px solid black;
-    cursor: pointer;
+nav li a:hover {
+    border-bottom: 2px solid gray;
 }
 
-.head2 a:hover {
-    border-bottom: 1px solid black;
-    cursor: pointer;
+.drop_down:hover .support {
+    display: block;
 }
 
 .blue_button:hover {
