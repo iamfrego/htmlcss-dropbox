@@ -529,6 +529,14 @@ a {
     border-bottom: 1px solid black;
 }
 
+.blue_button:hover {
+    background-color: #1f287e;
+}
+
+button:hover {
+    background-color: gainsboro;
+}
+
 .question:active+.answer {
     display: block;
 }
