@@ -473,10 +473,6 @@ a {
     display: none;
 }
 
-.question:active+.answer {
-    display: block;
-}
-
 /* FOOTER******************************************************************* */
 
 #site_footer {
@@ -521,4 +517,18 @@ a {
     background-color: transparent;
     color: white;
     border-style: none;
+}
+
+/* animation */
+
+.head1 a:hover {
+    border-bottom: 1px solid black;
+}
+
+.head2 a:hover {
+    border-bottom: 1px solid black;
+}
+
+.question:active+.answer {
+    display: block;
 }
