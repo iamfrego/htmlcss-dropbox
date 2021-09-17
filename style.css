@@ -94,7 +94,7 @@ nav li {
 }
 
 .support p {
-    padding: 1rem 2rem;
+    padding: 0rem 1rem;
     cursor: pointer;
 }
 
@@ -183,7 +183,7 @@ nav li {
     width: 30%;
     height: 100%;
     float: left;
-    border: 1px solid black;
+    border: 1px solid lightgray;
 }
 
 .col:nth-of-type(2n+2) {
@@ -192,7 +192,7 @@ nav li {
 
 .col_type {
     text-align: center;
-    border-bottom: black solid 1px;
+    border-bottom: lightgray solid 1px;
     font-weight: 100;
     padding: 10px 0px;
     font-size: large;
@@ -260,7 +260,7 @@ nav li {
 }
 
 .enterprise {
-    border: black solid 1px;
+    border: lightgray solid 1px;
     margin-bottom: 7rem;
 }
 
@@ -408,6 +408,10 @@ nav li {
     padding-top: 70px
 }
 
+.filter {
+    filter: invert(100%) sepia(56%) saturate(0%) hue-rotate(9deg) brightness(115%) contrast(101%);
+}
+
 .green {
     background-color: #A2D39B;
 }
@@ -538,7 +542,7 @@ nav li {
 
 /* animation */
 
-nav li a:hover {
+nav li :hover {
     border-bottom: 2px solid gray;
 }
 
